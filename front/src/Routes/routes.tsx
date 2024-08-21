@@ -10,6 +10,7 @@ import {
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import Scheduling from "../Pages/Scheduling";
+import Dashboard from "../Pages/Dashboard";
 
 const Routes = () => {
   return (
@@ -19,6 +20,7 @@ const Routes = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Register />} />
           <Route path="/agendamento" element={<Scheduling />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routers>
       </Routing>
     </div>
